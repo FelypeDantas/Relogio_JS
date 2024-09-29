@@ -5,6 +5,12 @@ const bgchange = (id) => {
     localStorage.setItem('bgColor', color);
 };
 
+const resetBgColor = () => {
+    const defaultColor = "darkcyan"; 
+    document.body.style.background = defaultColor;
+    localStorage.setItem('bgColor', defaultColor); 
+};
+
 document.addEventListener("DOMContentLoaded", () => {
     const savedColor = localStorage.getItem('bgColor');
     if (savedColor) {
