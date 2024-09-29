@@ -14,28 +14,43 @@ div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; 
+    gap: 15px; /* Espaçamento entre os "pincéis" */
 }
 
 a {
     display: inline-block;
-    width: 60px; 
-    height: 60px;
+    width: 60px; /* Largura do "pincel" */
+    height: 60px; /* Altura do "pincel" */
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
-    line-height: 60px; 
+    line-height: 60px; /* Centraliza o texto verticalmente */
     font-weight: bold;
-    color: white;
+    color: white; /* Cor do texto */
     text-decoration: none;
 }
 
+#color1 { background-color: #e58e26; }
+#color2 { background-color: #f9b4ab; }
+#color3 { background-color: #B1FB17; }
+#color4 { background-color: #78e08f; }
+#color5 { background-color: #fd79a8; }
+#color6 { background-color: #0000ff; }
+#color7 { background-color: #ff0000; }
+#color8 { background-color: #cc33cc; }
+#color9 { background-color: #A8A8A8; }
+#color10 { background-color: #9F5F9F; }
+#color11 { background-color: #634C6F; }
+#color12 { background-color: #24d30d; }
+#color13 { background-color: #44432f; }
+#color14 { background-color: #207ec1; }
+
 a:hover {
-    opacity: 0.8; 
+    opacity: 0.8; /* Efeito de hover */
 }
 
 #resetColor {
-    background-color: #444; 
+    background-color: #444; /* Cor do botão reset */
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
