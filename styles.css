@@ -20,3 +20,8 @@ span{
 #hour, #min, #sec{
     background-color: #fff;
 }
+
+footer{
+    text-align: center;
+    color: black;
+}
