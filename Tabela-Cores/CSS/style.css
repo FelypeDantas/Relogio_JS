@@ -14,12 +14,13 @@ div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* Espaçamento entre os "pincéis" */
+    gap: 15px; 
+    padding: 20%;
 }
 
 a {
     display: inline-block;
-    width: 60px; /* Largura do "pincel" */
+    width: 80px; /* Largura do "pincel" */
     height: 60px; /* Altura do "pincel" */
     border-radius: 5px;
     cursor: pointer;
@@ -50,9 +51,10 @@ a:hover {
 }
 
 #resetColor {
-    background-color: #444; /* Cor do botão reset */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #444; 
     color: white;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 5px;
     margin-top: 20px;
 }
