@@ -23,5 +23,13 @@ span{
 
 footer{
     text-align: center;
-    text-decoration-color: dark;
+}
+
+footer p a {
+    color: white; 
+    text-decoration: none; 
+}
+
+footer p a:hover {
+    text-decoration: underline; 
 }
