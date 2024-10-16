@@ -29,6 +29,6 @@ A cor escolhida será salva em localStorage, garantindo que a seleção persista
 
 ## Tecnologias Utilizadas
 
-HTML: Estruturação do conteúdo.
-CSS: Estilização das páginas.
-JavaScript: Lógica para manipulação do relógio e armazenamento local.
+- HTML: Estruturação do conteúdo.
+- CSS: Estilização das páginas.
+- JavaScript: Lógica para manipulação do relógio e armazenamento local.
